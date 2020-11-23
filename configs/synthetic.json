@@ -1,0 +1,35 @@
+{
+  "config": "./configs/synthetic.json",
+  "trainer_name": "di_cont",
+  "data_name": "synthetic",
+  "data_subname": "awgn",
+  "model_name": "cont_info",
+  "model_subname": "di",
+
+  "eval_freq": 25,
+  "quiet": null,
+  "seed": null,
+
+  "exp_name": "debug",
+  "run_name": null,
+  "tag_name": null,
+
+  "max_norm": 1.0,
+  "num_epochs": 500,
+  "batch_size" : 100,
+  "clip_grad_norm": 0.1,
+  "learning_rate": 0.1,
+
+  "pred_type": "map",
+  "x_dim": 1,
+  "y_dim": 1,
+  "snr": 1.0,
+  "contrastive_duplicates": 25,
+  "hidden_size": 100,
+  "embed_size": 100,
+  "bptt": 5,
+  "train_epoch_len": 10,
+  "eval_epoch_len": 10,
+  "mc_evaluation_len": 5000
+}
+
